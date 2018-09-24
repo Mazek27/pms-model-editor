@@ -1,0 +1,33 @@
+.AppMenu {
+  display:flex;  
+  padding: 5px;
+  color: white;
+  .navigation{
+    align-self: flex-start;
+    flex: 1;
+  }
+
+  .logout {
+    align-self: flex-end;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    align-self: flex-start;
+
+    li {
+      float: left;
+
+      > div{
+        display: inline-block;
+        padding: 5px;
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,9 @@
+.AppComponent {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+
+  .pagecontainer{
+    flex: 1;
+  }
+}

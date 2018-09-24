@@ -1,0 +1,29 @@
+//@import "../node_modules/lato-font/scss/lato-font.scss";
+
+html, body {
+  font-family: 'Lato';
+  height: 100%;
+  background-color: hsl(0,0%, 30%);
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  padding: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+}

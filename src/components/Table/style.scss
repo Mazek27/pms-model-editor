@@ -1,0 +1,12 @@
+.TableComponent {
+    flex: 1;
+    display: block;
+    position: relative;
+    
+    > div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #666666;
+    }
+}

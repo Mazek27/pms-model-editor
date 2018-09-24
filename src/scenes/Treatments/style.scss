@@ -1,0 +1,17 @@
+.TreatmentsComponent {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+    .master {
+        flex: 2;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .detail {
+        flex: 1;
+        display: flex;
+        flex-flow: column;
+    }
+}

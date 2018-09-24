@@ -1,0 +1,21 @@
+.ActionBar{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.774);
+    color: black;
+    padding: 5px;
+    box-shadow: 0px 2px 1px lime;
+
+    .title {
+        flex: 1;
+        align-self: center;
+    }
+
+    .actions {
+        display: flex;     
+        
+        > div {
+            margin-left: 5px;
+            padding: 5px;
+        }
+    }
+}
